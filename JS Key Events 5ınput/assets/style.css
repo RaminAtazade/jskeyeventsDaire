@@ -1,0 +1,67 @@
+.every {
+    transform: translateX(59px);
+}
+
+.qutu {
+    /* position: relative; */
+    background-color: rgb(121, 221, 50);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(480px);
+}
+
+.daire {
+     position: absolute; 
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* transition: 3s; */
+    /* transition verende steps inputu isdemir sebebini anlamisam izah edebilerem */
+}
+
+.pult {
+    position: relative;
+    transform: translateX(420px) translateY(55px);
+    width: 380px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 126, 126);
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+
+button {
+    border-radius: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+#ust {
+    transform: translateY(-50px) translateX(45px);
+}
+
+#alt {
+    transform: translateY(0px) translateX(-45px);
+}
+#sol{
+    transform: translateX(45px);
+}
+#sag{
+    transform: translateX(-45px);
+}
+input {
+    display: flex;
+}
+
+.inputlar {
+    height: 5%;
+    transform: translateX(820px) translateY(125px);
+}
